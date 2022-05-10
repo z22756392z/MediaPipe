@@ -13,6 +13,12 @@
 ![pluginWebsite](https://github.com/z22756392z/MediaPipe/blob/main/image/pluginWebsite.png)
 
 他需要幾個安裝幾個軟體和設定才能正常使用
+* python 3.9.0 , numpy
+* MSYS2 ,設定環境變數
+* Bazel 5.0.0[Releases · bazelbuild/bazel (github.com)](https://github.com/bazelbuild/bazel/releases?q=5.0.0&expanded=true), 設定環境變數
+* Nuget 5.10.0[NuGet Gallery | Downloads](https://www.nuget.org/downloads?msclkid=3608a8abd02f11ec9f846243bd98975e), 設定環境變數
+* WinSDK (windows 10)
+* Bazel連結 visual stdio 和 winsdk
 
 ## 必要的安裝
 
@@ -42,6 +48,6 @@
   set BAZEL_WINSDK_FULL_VERSION=10.0.18362.0
 ```
 
-* 下載插件  git clone https://github.com/homuler/MediaPipeUnityPlugin.git
+* 下載插件  `git clone https://github.com/homuler/MediaPipeUnityPlugin.git`
 
-* 開cmd cd到clone的資料夾 跑 python build.py build --desktop cpu --opencv=cmake -v 
+* 開cmd cd到clone的資料夾 跑 `python build.py build --desktop cpu --opencv=cmake -v `
