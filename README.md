@@ -13,6 +13,7 @@
 ![pluginWebsite](https://github.com/z22756392z/MediaPipe/blob/main/image/pluginWebsite.png)
 
 他需要幾個安裝幾個軟體和設定才能正常使用
+* untiy 版本 2020.2以上
 * python 3.9.0 , numpy
 * MSYS2 ,設定環境變數
 * Bazel 5.0.0[Releases · bazelbuild/bazel (github.com)](https://github.com/bazelbuild/bazel/releases?q=5.0.0&expanded=true), 設定環境變數
