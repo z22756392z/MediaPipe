@@ -16,7 +16,7 @@
 
 ## 必要的安裝
 
-* python版本3.9.0以上
+* python版本3.9.0以上 下載numpy(到cmd 打 pip install numpy)
 * MSYS2 安裝好後要設定環境變數 
 * Bazel [Releases · bazelbuild/bazel (github.com)](https://github.com/bazelbuild/bazel/releases?q=5.0.0&expanded=true) 安裝 5.0.0的版本 同樣設定環境變數 看有沒有安裝好可以在cmd打``bazel --version``
 
@@ -41,3 +41,7 @@
 
   set BAZEL_WINSDK_FULL_VERSION=10.0.18362.0
 ```
+
+* 下載插件  git clone https://github.com/homuler/MediaPipeUnityPlugin.git
+
+* 開cmd cd到clone的資料夾 跑 python build.py build --desktop cpu --opencv=cmake -v 
