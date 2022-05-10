@@ -1,6 +1,4 @@
-我們已經有把插件用好了
-
-如果要安裝的話
+## 安裝
 
 可以看這個網站
 
@@ -31,7 +29,7 @@
 * nuget[NuGet Gallery | Downloads](https://www.nuget.org/downloads?msclkid=3608a8abd02f11ec9f846243bd98975e) 下載 5.10.0的版本 同設定環境變數 (cmd打``nuget``同樣可以看有沒有成功)
 
 * 連結 visual stdio 和 winsdk
-
+```
   set BAZEL_VS=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
   set BAZEL_VC=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC
 
@@ -42,3 +40,4 @@
   //剛剛 用visutal stdio installer 下載的winsdk版本
 
   set BAZEL_WINSDK_FULL_VERSION=10.0.18362.0
+```
