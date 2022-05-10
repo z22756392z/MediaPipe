@@ -51,3 +51,6 @@
 * 下載插件  `git clone https://github.com/homuler/MediaPipeUnityPlugin.git`
 
 * 開cmd cd到clone的資料夾 跑 `python build.py build --desktop cpu --opencv=cmake -v `
+
+## 結果
+![https://github.com/z22756392z/MediaPipe/blob/main/image/result.png]
