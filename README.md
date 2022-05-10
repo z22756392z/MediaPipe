@@ -35,7 +35,7 @@
 
 * nuget[NuGet Gallery | Downloads](https://www.nuget.org/downloads?msclkid=3608a8abd02f11ec9f846243bd98975e) 下載 5.10.0的版本 同設定環境變數 (cmd打``nuget``同樣可以看有沒有成功)
 
-* 連結 visual stdio 和 winsdk
+* 連結 visual stdio 和 winsdk 在cmd打 (這裡的目錄位置都是預設的 如果不一樣在 改到放visual stdio目錄的地方)
 ```
   set BAZEL_VS=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
   set BAZEL_VC=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC
