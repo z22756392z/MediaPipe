@@ -12,7 +12,7 @@
 
 **網站上的內容**
 
-![image-20220510145203796](C:\Users\z22756392z\AppData\Roaming\Typora\typora-user-images\image-20220510145203796.png)
+![pluginWebsite](\image\pluginWebsite.png)
 
 他需要幾個安裝幾個軟體和設定才能正常使用
 
@@ -22,11 +22,11 @@
 * MSYS2 安裝好後要設定環境變數 
 * Bazel [Releases · bazelbuild/bazel (github.com)](https://github.com/bazelbuild/bazel/releases?q=5.0.0&expanded=true) 安裝 5.0.0的版本 同樣設定環境變數 看有沒有安裝好可以在cmd打``bazel --version``
 
-  ![螢幕擷取畫面 2022-05-10 145453](C:\Users\z22756392z\Desktop\螢幕擷取畫面 2022-05-10 145453.png)0的版本
+  ![bazel](\image\bazel.png)
 
 * WinSDK 到visual stdio 點選要使用visual stdio的版本 按修改 可以點選隨便一個windows 10 SDK 只要有安裝就好 要記得版本之後會用到(這裡是: 10.0.18362.0)
 
-![image-20220510150111557](C:\Users\z22756392z\AppData\Roaming\Typora\typora-user-images\image-20220510150111557.png)
+![winsdk](\image\winsdk.png)
 
 * nuget[NuGet Gallery | Downloads](https://www.nuget.org/downloads?msclkid=3608a8abd02f11ec9f846243bd98975e) 下載 5.10.0的版本 同設定環境變數 (cmd打``nuget``同樣可以看有沒有成功)
 
