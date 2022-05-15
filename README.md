@@ -29,10 +29,11 @@
 
   ![bazel](https://github.com/z22756392z/MediaPipe/blob/main/image/bazel.png)
 
-* WinSDK 到visual stdio 點選要使用visual stdio的版本 按修改 可以點選隨便一個windows 10 SDK 只要有安裝就好 要記得版本之後會用到(這裡是: 10.0.18362.0)
+* WinSDK 到visual studio installer 點選要使用visual studio的版本 按修改 可以點選隨便一個windows 10 SDK 只要有安裝就好 要記得版本之後會用到(這裡是: 10.0.18362.0)
 
 ![winsdk](https://github.com/z22756392z/MediaPipe/blob/main/image/winsdk.png)
-* ![C](/C.png)
+* 一樣在visual stuido installer 下載
+![C](/C.png)
 
 * nuget[NuGet Gallery | Downloads](https://www.nuget.org/downloads?msclkid=3608a8abd02f11ec9f846243bd98975e) 下載 5.10.0的版本 同設定環境變數 (cmd打``nuget``同樣可以看有沒有成功)
 
